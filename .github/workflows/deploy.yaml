@@ -1,6 +1,6 @@
 name: Deploy AWS VPC
 on:
-  #push:
+  push:
     branches:
       - main
 
