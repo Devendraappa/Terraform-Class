@@ -13,7 +13,7 @@ provider "aws" {
 
 # Create an S3 bucket for the Terraform state
 resource "aws_s3_bucket" "state_bucket" {
-  bucket = "your-terraform-state-bucket" # Replace with a unique bucket name
+  bucket = "training-bucket22" # Replace with a unique bucket name
   acl    = "private"
 
   tags = {
