@@ -1,4 +1,4 @@
-name: Deploy AWS VPC,S3 & EC2 resource
+name: Deploy AWS VPC,S3 & EC2 resources
 on:
   push:
     branches:
