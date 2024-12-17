@@ -24,4 +24,5 @@ jobs:
           terraform_version: 1.6.0
 
       - name: Destroy Infrastructure
+        run: chmod +x destroy.sh
         run: ./destroy.sh
