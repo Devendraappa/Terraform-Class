@@ -1,12 +1,3 @@
-terraform {
-  backend "s3" {
-    bucket  = "training-test456" # Replace with your bucket name
-    key     = "state/terraform.tfstate"     # Replace with the desired path in the bucket
-    region  = "ap-south-1"                  # Replace with your AWS region
-    encrypt = true                          # Encrypt the state file
-  }
-}
-
 provider "aws" {
   region = "ap-south-1"
 }
