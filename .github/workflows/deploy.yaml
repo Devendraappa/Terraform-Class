@@ -1,6 +1,4 @@
-
-name: Deploy AWS VPC resource
-
+name: Deploy AWS VPC
 on:
   push:
     branches:
