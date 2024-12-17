@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "training-bucket22" # Replace with your bucket name
+    bucket  = "training-test456" # Replace with your bucket name
     key     = "state/terraform.tfstate"     # Replace with the desired path in the bucket
     region  = "ap-south-1"                  # Replace with your AWS region
     encrypt = true                          # Encrypt the state file
@@ -13,7 +13,7 @@ provider "aws" {
 
 # Create an S3 bucket for the Terraform state
 resource "aws_s3_bucket" "state_bucket" {
-  bucket = "training-bucket22" # Replace with a unique bucket name
+  bucket = "training-test456" # Replace with a unique bucket name
   acl    = "private"
 
   tags = {
